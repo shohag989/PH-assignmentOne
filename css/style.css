@@ -207,7 +207,7 @@ p {
 #SolutionSection .solution_features {
   width: 60%;
 }
-#SolutionSection .solution_features p:first-child{
+#SolutionSection .solution_features p:first-child {
   text-transform: uppercase;
 }
 #SolutionSection .solution_features h3 {
@@ -222,33 +222,33 @@ p {
   margin-top: 30px;
   gap: 10px;
 }
-#SolutionSection .solution_feature_item ul li{
+#SolutionSection .solution_feature_item ul li {
   color: var(--color-text-primary);
   list-style: none;
   line-height: 30px;
 }
-#SolutionSection .solution_feature_item ul li i{
+#SolutionSection .solution_feature_item ul li i {
   color: var(--color-primary);
 }
 /** SolutionSection Style|End **/
 
 /** CTASection Style|Start **/
-#CTASection{
-   display: flex;
+#CTASection {
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
 }
-#CTASection .container{
+#CTASection .container {
   background: var(--color-bg-section);
   padding: 80px 0;
 }
-#CTASection .container h4{
+#CTASection .container h4 {
   font-size: 40px;
-font-weight: 700;
+  font-weight: 700;
 }
-#CTASection .container p{
+#CTASection .container p {
   margin: 17px 0;
 }
 /** CTASection Style|End **/
@@ -258,22 +258,22 @@ font-weight: 700;
   background: var(--color-text-primary);
   padding-bottom: 20px;
 }
-#Footer .footer_top{
+#Footer .footer_top {
   padding: 100px 0;
   display: flex;
   justify-content: space-between;
 }
-#Footer .footer_top p{
+#Footer .footer_top p {
   color: var(--color-bg-main);
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 15px;
 }
-#Footer .footer_top .social_icons i{
+#Footer .footer_top .social_icons i {
   color: var(--color-bg-main);
   font-size: 20px;
 }
-#Footer .footer_copyright{
+#Footer .footer_copyright {
   text-align: center;
   padding-top: 10px;
   border-top: 1px solid var(--color-text-secondary);
