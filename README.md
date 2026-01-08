@@ -17,5 +17,4 @@ Knowledge Vault is designed to showcase the concept of building a “second brai
 ## 🛠️ Built With
 
 - HTML  
-- CSS  
-- JavaScript
+- CSS 
