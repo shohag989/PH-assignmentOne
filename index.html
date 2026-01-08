@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+    <link rel="stylesheet" href="./css/ripple.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
     <!-- title -->
@@ -19,18 +20,16 @@
   <body>
     <!-- navBar section|start -->
     <section id="navBar">
-      <div class="container">
-        <div class="nav_content">
-          <img src="./image/Logo.svg" alt="KV Logo" />
-          <div class="menu">
-            <ul>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">How It Works</a></li>
-              <li><a href="#">HWhy It's Different</a></li>
-            </ul>
-          </div>
-          <button>Get Early Access</button>
+      <div class="nav_content">
+        <img src="./image/Logo.svg" alt="KV Logo" />
+        <div class="menu">
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Why It's Different</a></li>
+          </ul>
         </div>
+        <button class="btn">Get Early Access</button>
       </div>
     </section>
     <!-- navBar section|End -->
@@ -39,17 +38,26 @@
     <section id="HeroSection">
       <div class="container">
         <div class="live_symbol">
-          <p>Early Access Now Open</p>
+          <div class="live_symbol">
+            <button>
+              <span class="live-dot">
+                <span class="ripple"></span>
+              </span>
+              Early Access Now Open
+            </button>
+          </div>
         </div>
         <div class="Hero_text">
-          <h2>Structured thinking, <span>not just note-taking.</span></h2>
+          <h2>Structured thinking,<br /><span>not just note-taking.</span></h2>
           <p>
             A private space to store notes, links, and learning summaries —
-            designed to help you think clearly, connect ideas, and turn learning
-            into long-term knowledge.
+            designed to <br />help you think clearly, connect ideas, and turn
+            learning into long-term knowledge.
           </p>
+        </div>
+        <div class="Hero_buttons">
           <button class="btn">
-            <i class="fa-solid fa-arrow-right"></i> Start Building Your Vault
+            Start Building Your Vault <i class="fa-solid fa-arrow-right"></i>
           </button>
           <button class="btn">
             <i class="fa-solid fa-play"></i> See How It Works
@@ -72,24 +80,24 @@
         <div class="problem_cards">
           <div class="problem_card">
             <img src="./image/Stack.svg" alt="Stack" />
-            <h6>Scattered notes</h6>
+            <h5>Scattered notes</h5>
             <p>Your ideas live in 10 different apps, none of them connected.</p>
           </div>
           <div class="problem_card">
             <img src="./image/Bookmarks.svg" alt="Bookmark" />
-            <h6>Bookmark overload</h6>
+            <h5>Bookmark overload</h5>
             <p>Hundreds of saved links you'll never revisit or remember.</p>
           </div>
           <div class="problem_card">
             <img src="./image/Brain.svg" alt="Brain" />
-            <h6>No idea connections</h6>
+            <h5>No idea connections</h5>
             <p>
               Insights stay isolated, never building into bigger understanding.
             </p>
           </div>
           <div class="problem_card">
             <img src="./image/Info.svg" alt="Info" />
-            <h6>Forgetting what you learned</h6>
+            <h5>Forgetting what you learned</h5>
             <p>Knowledge fades because there's no system to retain it.</p>
           </div>
         </div>
@@ -106,29 +114,19 @@
           </div>
           <div class="solution_features">
             <p>The Solution</p>
-            <h4>Your second brain, structured by design.</h4>
+            <h3>Your second brain, structured by design.</h3>
             <p>
               Personal Knowledge Vault isn't another note-taking app. z
               <br />It's a thinking environment where every note, link, and
               summary becomes part of an interconnected web of understanding.
             </p>
             <div class="solution_feature_item">
-              <p>
-                <i class="fa-solid fa-circle-check"></i> Capture ideas with
-                structure built-in from day one
-              </p>
-              <p>
-                <i class="fa-solid fa-circle-check"></i> Connect related
-                concepts automatically as you write
-              </p>
-              <p>
-                <i class="fa-solid fa-circle-check"></i> Build lasting knowledge
-                through reflection prompts
-              </p>
-              <p>
-                <i class="fa-solid fa-circle-check"></i> Find anything instantly
-                with semantic search
-              </p>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i> Capture ideas with structure built-in from day one</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Connect related concepts automatically as you write</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Build lasting knowledge through reflection prompts</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Find anything instantly with semantic search</li>
+                </ul>
             </div>
           </div>
         </div>
@@ -143,11 +141,9 @@
           <h4>Ready to think more clearly?</h4>
           <p>
             Join thousands of learners who are building their personal knowledge
-            vaults.Start free, no credit card required.
+            vaults. <br>Start free, no credit card required.
           </p>
-          <button>
-            Get Early Access <i class="fa-solid fa-arrow-right"></i>
-          </button>
+          <button class="btn">Get Early Access <i class="fa-solid fa-arrow-right"></i></button>
           <p>Free during early access • No credit card needed</p>
         </div>
       </div>
@@ -157,8 +153,9 @@
     <!-- Footer section|Start -->
     <footer id="Footer">
       <div class="container">
-        <div class="footer_brand">
-          <img src="./image/Logo.svg" alt="Logo" />
+        <div class="footer_top">
+            <div class="footer_brand">
+          <img src="./image/logoFooter.svg" alt="Logo" />
         </div>
         <div class="footer_social">
           <p>Social Links</p>
@@ -167,6 +164,10 @@
             <i class="fa-brands fa-linkedin-in"></i>
             <i class="fa-brands fa-facebook-f"></i>
           </div>
+        </div>
+        </div>
+        <div class="footer_copyright">
+            <p>© 2026 Personal Knowledge Vault. All rights reserved.</p>
         </div>
       </div>
     </footer>
